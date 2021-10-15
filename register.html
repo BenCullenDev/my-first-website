@@ -12,24 +12,32 @@
     <p>Here we are going to build a simple registration form that demonstrates some of the input types available in HTML 5.</p>
     <p>Don't worry this information isn't submitted anywhere and isn't saved anywhere!</p>
     <form>
+        <p>First of all lets have some basic text inputs for our name:</p>
         First Name: <input type="text" name="firstname"><br>
         Last Name: <input type="text" name="lastname"><br>
+        <p>We can have specific types of text like email that will require some specific formatting:</p>
         Email: <input type="email" name="email" required><br>
+        <p>A password input will mask the characters as they are typed:</p>
         Password: <input type="password" name="pasword" id="" min="5"><br>
+        <p>A data input will give us some formatting and a selector:</p>
         Birthday: <input type="date" name="birthday" id=""><br>
+        <p>Radio inputs are useful for when we need to select one option from many:</p>
         Gender: <br>
         <input type="radio" name="Gender" value="male">Male<br>
         <input type="radio" name="Gender" value="femail">Female<br>
         <input type="radio" name="Gender" value="other">Other<br>
+        <p>Checkbox inputs are useful where we need to select more than one thing:</p>
         Pets:<br>
         <input type="checkbox" name="cat">Cat<br>
         <input type="checkbox" name="dog">Dog<br>
+        <p>Select inputs give us a common dropdown list to choose from:</p>
         Car: <br>
         <select name="car">
             <option value="volvo">Volvo</option>
             <option value="audi">Audi</option>
             <option value="bmw"> BMW</option>
         </select><br>
+        <p>We can also have submit and reset 'inputs' that give us buttons:</p>
         <input type="submit" value="Register!">
         <input type="reset" value="Reset">
 
